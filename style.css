@@ -1,0 +1,39 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    
+    /* General body styling */
+    body {
+        font-family: 'Inter', sans-serif;
+        color: #4B5563; /* Gray-600 */
+    }
+    
+    /* Main message card styling */
+    .message-card {
+        background-color: #FEE2E2; /* Rose-100 */
+        box-shadow: 0 10px 20px -5px rgba(239, 68, 68, 0.2), 0 6px 12px -3px rgba(239, 68, 68, 0.2);
+        border: 1px solid #FCA5A5; /* Rose-400 */
+    }
+    
+    /* Heart icon animation */
+    .heart {
+        animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+        0%, 100% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+    }
+
+    /* Photo gallery container styling */
+    .gallery-container {
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1), 0 6px 12px -3px rgba(0, 0, 0, 0.08);
+    }
+    
+    /* Photo item styling */
+    .image-item {
+        transition-property: transform, box-shadow;
+    }
